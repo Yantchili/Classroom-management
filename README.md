@@ -5,7 +5,7 @@ Necesitamos desarrollar una aplicación hecha con javascript que nos ayude a ges
 
 Partiremos de un listado de alumnos inicial:
 
-  const students = [{
+    const students = [{
   age: 32,
   examScores: [],
   gender: 'male',
