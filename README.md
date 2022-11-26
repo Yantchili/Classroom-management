@@ -3,9 +3,7 @@ Una aplicación hecha con javascript que nos ayude a gestionar los alumnos de nu
 
 Necesitamos desarrollar una aplicación hecha con javascript que nos ayude a gestionar los alumnos de nuestra clase.
 
-Partiremos de un listado de alumnos inicial:
-
-    const students = [{
+  const students = [{
   age: 32,
   examScores: [],
   gender: 'male',
@@ -19,9 +17,6 @@ Partiremos de un listado de alumnos inicial:
 }]
 y una serie de utilidades de apoyo en los ejercicios:
 
-const availableMaleNames = ['pepe', 'juan', 'victor', 'Leo', 'francisco', 'carlos'];
-const availableFemaleNames = ['cecilia', 'ana', 'luisa', 'silvia', 'isabel', 'virginia'];
-const availableGenders = ['male', 'female'];
 Como podéis ver, cada requisito tiene un número asignado. Cuando ejecutemos la aplicación, aparecerá el listado completo de requisitos. El usuario debe pulsar el número correspondiente a ese requisito para que se ejecute. Una vez la ejecución termine, volveremos a mostrar el listado de requisitos para que el usuario pueda seleccionar otro. En caso de que el usuario pulse el 0 o un número no contemplado, la aplicación terminará.
 
 Requisitos indispensables
